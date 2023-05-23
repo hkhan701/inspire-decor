@@ -1,1 +1,36 @@
-p { color: #df1010;}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(224, 177, 177);
+    min-height: 8vh;
+}
+
+nav a {
+    font-family: 'khula';
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.storename h1{
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 48px;
+    font-weight: 100;
+    line-height: 34px;
+  
+}
+.logo img{
+    width: 150px;
+    height: 150px;
+    border-radius: 30%;
+    margin: 10px;
+}
