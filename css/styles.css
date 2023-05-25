@@ -5,6 +5,7 @@
 }
 
 nav { 
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -62,7 +63,7 @@ nav span {
     width: 100px;
     height: 100px;
     border-radius: 30%;
-    margin: 10px;
+    margin: 2rem;
 }
 
 .burger {
@@ -77,11 +78,17 @@ nav span {
     transition: all 0.3s ease;
 }
 
-@media screen and (max-width: 768px) {
-    .nav {
+@media screen and (max-width: 1028px) {
+
+    .logo img {
+        margin: 2rem 1rem; /* Adjust the margin specifically for mobile devices */
+    }
+
+    body {
         overflow-x: hidden;
         position: absolute;
     }
+
     .nav-links {
         position: absolute;
         right: 0;
