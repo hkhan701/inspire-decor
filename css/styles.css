@@ -2,12 +2,51 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body, html {
     overflow-x: hidden;
 }
 
+/* FOOTER */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    height: 10rem;
+    background-color: #0e0d0d;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
+
+footer a:hover {
+    color: #757575;
+}
+
+footer p {
+    font-family: 'khula';
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'khula';
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
 
 /* BANNER 1 */
 
@@ -51,6 +90,16 @@ body, html {
     transition: all .15s;
     max-width: 300px;
     max-height: 5rem;
+}
+
+button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: rgb(224, 177, 177);
+    transition: all .15s;
 }
 
 
